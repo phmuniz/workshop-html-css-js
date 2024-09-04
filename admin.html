@@ -54,15 +54,20 @@
                     
                     <div class="areaInput">
                         <span>Nome:</span>
-                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Nome" id="nome" onchange="setNome()">
                     </div>
 
                     <div class="areaInput">
                         <span>Data de nascimento:</span>
-                        <input type="date" placeholder="dd/mm/aaaa">
+                        <input type="date" placeholder="dd/mm/aaaa" id="data" onchange="setData()">
                     </div>
 
-                    <button>
+                    <div class="areaInput">
+                        <span>Email:</span>
+                        <input type="email" placeholder="Email" id="email" onchange="setEmail()">
+                    </div>
+
+                    <button onclick="salvar()">
                         Salvar
                     </button>
                 
@@ -79,6 +84,8 @@
         <footer>
             <span>Todos os direitos reservados</span>
         </footer>
+
+        <script src="admin.js"></script>
 
     </body>
 
