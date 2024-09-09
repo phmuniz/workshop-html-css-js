@@ -18,6 +18,15 @@ HTML (HyperText Markup Language) é a linguagem padrão usada para criar página
 </html>
 ```
 ## Componentes principais:
-Elementos/tags: As tags HTML estão envolvidas por < e > e geralmente vêm em pares: uma de abertura e uma de fechamento (ex: <p> para parágrafo, e </p> para fechar).
-Atributos: Elementos HTML podem ter atributos que fornecem informações adicionais, como id, class, src (para imagens), e href (para links).
-Semântica: Tags como <header>, <nav>, <section>, e <footer> ajudam a organizar o conteúdo de forma mais significativa para os motores de busca e leitores de tela.
+- **Elementos/tags**: As tags HTML estão envolvidas por `<` e `>` e geralmente vêm em pares, uma de abertura e outra de fechamento (exemplo: `<p>` para parágrafo, e `</p>` para fechar).
+- **Atributos**: Elementos HTML podem ter atributos que fornecem informações adicionais sobre o elemento. Alguns exemplos de atributos são:
+  - `id`: Usado para identificar um elemento unicamente na página.
+  - `class`: Define uma ou mais classes CSS para estilizar o elemento.
+  - `src`: Especifica o caminho de uma imagem ou arquivo de mídia (usado, por exemplo, na tag `<img>`).
+  - `href`: Especifica o URL para o qual um link deve direcionar (usado na tag `<a>`).
+- **Semântica**: Tags semânticas, como `<header>`, `<nav>`, `<section>`, e `<footer>`, ajudam a dar significado ao conteúdo da página, melhorando a acessibilidade e a otimização para motores de busca (SEO).
+  - `<header>`: Define o cabeçalho de uma página ou de uma seção.
+  - `<nav>`: Usado para definir um conjunto de links de navegação.
+  - `<section>`: Agrupa conteúdo relacionado dentro de uma seção lógica.
+  - `<footer>`: Representa o rodapé de uma página ou de uma seção.
+
