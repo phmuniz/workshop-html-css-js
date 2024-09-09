@@ -30,3 +30,62 @@ HTML (HyperText Markup Language) é a linguagem padrão usada para criar página
   - `<section>`: Agrupa conteúdo relacionado dentro de uma seção lógica.
   - `<footer>`: Representa o rodapé de uma página ou de uma seção.
 
+<br>
+<br>
+<br>
+<br>
+
+
+# CSS
+
+CSS (Cascading Style Sheets) é uma linguagem usada para descrever a apresentação de documentos HTML. Ele define como os elementos HTML devem ser exibidos em termos de layout, cores, fontes e outros estilos visuais. CSS separa a estrutura (HTML) do design, permitindo que o estilo seja aplicado de forma eficiente e consistente.
+
+## Estrutura básica de uma folha de estilos CSS:
+```css
+selector {
+  property: value;
+}
+```
+## Componentes principais:
+
+- **Seletores**: Definem quais elementos HTML serão estilizados. Existem vários tipos de seletores:
+  - **Tag**: Seleciona todos os elementos de uma tag específica.
+    ```css
+    h1 {
+      color: red;
+    }
+    ```
+  - **Classe**: Seleciona elementos com um atributo `class` específico, precedido por um ponto `.`.
+    ```css
+    .minha-classe {
+      background-color: yellow;
+    }
+    ```
+  - **ID**: Seleciona um elemento único com um atributo `id`, precedido por uma cerquilha `#`.
+    ```css
+    #meu-id {
+      font-size: 20px;
+    }
+    ```
+  - **Seletores combinados**: Aplicam estilos a combinações de elementos ou estados, como links dentro de parágrafos.
+    ```css
+    p a {
+      text-decoration: none;
+    }
+    ```
+
+- **Propriedades**: São as características que podem ser aplicadas aos elementos HTML, definindo seu estilo. Algumas das mais comuns incluem:
+  - `color`: Define a cor do texto.
+  - `background-color`: Define a cor de fundo de um elemento.
+  - `font-size`: Define o tamanho da fonte.
+  - `margin`: Define o espaçamento externo de um elemento.
+  - `padding`: Define o espaçamento interno de um elemento.
+
+- **Unidades de medida**: CSS usa diferentes unidades para definir tamanhos e dimensões. Algumas das mais comuns são:
+  - `px`: Pixels, usado para medidas absolutas.
+  - `%`: Percentual, usado para medidas relativas ao elemento pai.
+  - `em` e `rem`: Usado para medidas relativas ao tamanho da fonte.
+
+- **Cascata e herança**: O CSS segue uma hierarquia, onde estilos aplicados a elementos mais externos podem ser herdados pelos internos. Além disso, quando há regras conflitantes, o CSS usa a **especificidade** para resolver essas situações:
+  - **Especificidade**: Seletores mais específicos, como IDs, têm prioridade sobre seletores de classes ou tags.
+  - **Ordem**: Se duas regras têm a mesma especificidade, a última regra definida no código será aplicada.
